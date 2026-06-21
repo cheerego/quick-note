@@ -1,0 +1,85 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "HotKey-release.module": ["<HotKey-release.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "QuickNotes-release.exe": ["<QuickNotes-release.exe>"]
+  "QuickNotes-release.module": ["<QuickNotes-release.module>"]
+  "main": ["<QuickNotes-release.exe>","<QuickNotes-release.module>"]
+  "test": ["<QuickNotes-release.exe>","<QuickNotes-release.module>"]
+default: "main"
+nodes:
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/sources"]
+    description: "Write auxiliary file /Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/sources"
+
+  "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/PanelManager.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/PreferencesView.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/ShortcutConfig.swift"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/sources"]
+    description: "Write auxiliary file /Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/sources"
+
+  "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig.swift.o"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.product/Objects.LinkFileList"
+
+  "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+
+  "<HotKey-release.module>":
+    tool: phony
+    inputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.swiftmodule"]
+    outputs: ["<HotKey-release.module>"]
+
+  "<QuickNotes-release.exe>":
+    tool: phony
+    inputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes"]
+    outputs: ["<QuickNotes-release.exe>"]
+
+  "<QuickNotes-release.module>":
+    tool: phony
+    inputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.swiftmodule"]
+    outputs: ["<QuickNotes-release.module>"]
+
+  "C.HotKey-release.module":
+    tool: shell
+    inputs: ["/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift","/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/sources"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.swiftmodule"]
+    description: "Compiling Swift Module 'HotKey' (6 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","HotKey","-emit-dependencies","-emit-module","-emit-module-path","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.swiftmodule","-output-file-map","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/output-file-map.json","-parse-as-library","-whole-module-optimization","-num-threads","10","-c","@/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/sources","-I","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release","-target","arm64-apple-macosx10.13","-swift-version","5","-O","-j10","-DSWIFT_PACKAGE","-module-cache-path","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey-Swift.h","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-suppress-warnings"]
+
+  "C.QuickNotes-release.exe":
+    tool: shell
+    inputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.product/Objects.LinkFileList"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes"]
+    description: "Linking ./.build/arm64-apple-macosx/release/QuickNotes"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release","-o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes","-module-name","QuickNotes","-emit-executable","-Xlinker","-dead_strip","-Xlinker","-alias","-Xlinker","_QuickNotes_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.product/Objects.LinkFileList","-target","arm64-apple-macosx14.0","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.QuickNotes-release.module":
+    tool: shell
+    inputs: ["/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/PanelManager.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/PreferencesView.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift","/Users/crush/Sites/notes/app/Sources/QuickNotes/ShortcutConfig.swift","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.swiftmodule","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/sources"]
+    outputs: ["/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig.swift.o","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.swiftmodule"]
+    description: "Compiling Swift Module 'QuickNotes' (7 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","QuickNotes","-emit-dependencies","-emit-module","-emit-module-path","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.swiftmodule","-output-file-map","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/output-file-map.json","-whole-module-optimization","-num-threads","10","-c","@/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/sources","-I","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release","-target","arm64-apple-macosx14.0","-swift-version","5","-O","-j10","-DSWIFT_PACKAGE","-module-cache-path","/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","QuickNotes_main","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","app"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/crush/Sites/notes/app/Sources/QuickNotes/","/Users/crush/Sites/notes/app/Package.swift","/Users/crush/Sites/notes/app/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

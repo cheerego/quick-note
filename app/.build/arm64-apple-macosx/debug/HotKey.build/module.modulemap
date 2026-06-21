@@ -1,0 +1,4 @@
+module HotKey {
+    header "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKey-Swift.h"
+    requires objc
+}

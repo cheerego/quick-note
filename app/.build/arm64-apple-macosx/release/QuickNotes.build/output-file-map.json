@@ -1,0 +1,42 @@
+{
+  "": {
+    "dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotes.d",
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotes.o",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/master.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/AppDelegate.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/Note.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/NoteStorage.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/PanelManager.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PanelManager.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/PreferencesView.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/PreferencesView.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/QuickNotesApp.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/ShortcutConfig.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/QuickNotes.build/ShortcutConfig.swiftdeps"
+  }
+}

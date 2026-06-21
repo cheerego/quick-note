@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "18eab171e740f1c0e6bd1f9d7237540cbf27f6d0699186110606848441485624"
+build_start_time: [1779801642, 218411000]
+build_end_time: [1779801644, 329750000]
+inputs:
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift": [1779712702, 742317953]
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift": [1779640033, 51979619]
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift": [1779711873, 954570526]
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/PanelManager.swift": [1779801593, 440382483]
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/PreferencesView.swift": [1779712675, 889581819]
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift": [1779639993, 428746099]
+  "/Users/crush/Sites/notes/app/Sources/QuickNotes/ShortcutConfig.swift": [1779712760, 689880434]

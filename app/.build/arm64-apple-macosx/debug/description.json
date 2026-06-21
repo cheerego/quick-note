@@ -1,0 +1,588 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.HotKey-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/sources",
+      "importPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "HotKey",
+      "moduleOutputPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.swiftmodule",
+      "objects" : [
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKey.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKeysController.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/Key.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/KeyCombo+System.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/KeyCombo.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/NSEventModifierFlags+HotKey.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKey-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKeysController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/KeyCombo+System.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/KeyCombo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/NSEventModifierFlags+HotKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift",
+        "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift",
+        "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift",
+        "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift",
+        "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift",
+        "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift"
+      ],
+      "tempsPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.QuickNotes-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/sources",
+      "importPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/FloatingPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "QuickNotes",
+      "moduleOutputPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.swiftmodule",
+      "objects" : [
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/AppDelegate.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/ContentView.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/FloatingPanel.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/Note.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/NoteStorage.swift.o",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/QuickNotesApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "QuickNotes_main",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "app"
+      ],
+      "outputFileMapPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/FloatingPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/Note.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/NoteStorage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/QuickNotesApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift",
+        "/Users/crush/Sites/notes/app/Sources/QuickNotes/ContentView.swift",
+        "/Users/crush/Sites/notes/app/Sources/QuickNotes/FloatingPanel.swift",
+        "/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift",
+        "/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift",
+        "/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift"
+      ],
+      "tempsPath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "HotKey" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "HotKey",
+      "-incremental",
+      "-c",
+      "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift",
+      "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift",
+      "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift",
+      "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift",
+      "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift",
+      "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift",
+      "-I",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKey-Swift.h",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "QuickNotes" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "QuickNotes",
+      "-package-name",
+      "app",
+      "-incremental",
+      "-c",
+      "/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift",
+      "/Users/crush/Sites/notes/app/Sources/QuickNotes/ContentView.swift",
+      "/Users/crush/Sites/notes/app/Sources/QuickNotes/FloatingPanel.swift",
+      "/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift",
+      "/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift",
+      "/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift",
+      "-I",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "QuickNotes_main",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "app",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "HotKey" : [
+
+    ],
+    "QuickNotes" : [
+      "HotKey"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/sources"
+    },
+    "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes-entitlement.plist"
+    },
+    "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/FloatingPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/Note.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/NoteStorage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/Sources/QuickNotes/QuickNotesApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/sources"
+    },
+    "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/HotKeysController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/KeyCombo+System.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/KeyCombo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/HotKey.build/NSEventModifierFlags+HotKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/FloatingPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/Note.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/NoteStorage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.build/QuickNotesApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/QuickNotes.product/Objects.LinkFileList"
+    },
+    "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

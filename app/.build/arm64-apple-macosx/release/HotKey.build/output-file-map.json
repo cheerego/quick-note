@@ -1,0 +1,37 @@
+{
+  "": {
+    "dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.d",
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.o",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/master.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/Key.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swiftdeps"
+  },
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift": {
+    "object": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swift.o",
+    "swiftmodule": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/crush/Sites/notes/app/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swiftdeps"
+  }
+}

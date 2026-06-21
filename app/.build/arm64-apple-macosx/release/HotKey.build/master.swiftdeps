@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "55def95db091565162701d06aa1061cb49497563795681ede6523edc36704bfe"
+build_start_time: [1779672780, 518296000]
+build_end_time: [1779672781, 782126000]
+inputs:
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKey.swift": [1779640271, 424358468]
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/HotKeysController.swift": [1779640271, 424469594]
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/Key.swift": [1779640271, 424555053]
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo+System.swift": [1779640271, 424683596]
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/KeyCombo.swift": [1779640271, 424752388]
+  "/Users/crush/Sites/notes/app/.build/checkouts/HotKey/Sources/HotKey/NSEventModifierFlags+HotKey.swift": [1779640271, 424822597]
